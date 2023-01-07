@@ -1,7 +1,5 @@
 # Rocketseat Ignite ig.news
 
-![Cover](.github/cover.png)
-
 ## Stack
 
 - [NextJS](https://nextjs.org)
