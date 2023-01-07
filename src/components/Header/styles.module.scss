@@ -1,0 +1,57 @@
+.container {
+  height: 5rem;
+  border-bottom: 1px solid var(--gray-800);
+}
+
+.content {
+  max-width: 1120px;
+  height: 100%;
+  margin-inline: auto;
+  padding-inline: 2rem;
+
+  display: flex;
+  align-items: center;
+
+  > nav {
+    margin-left: 5rem;
+    height: 100%;
+
+    a {
+      display: inline-flex;
+      position: relative;
+      padding-inline: 0.5rem;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      color: var(--gray-300);
+
+      transition: color 0.2s linear;
+
+      & + a {
+        margin-left: 2rem;
+      }
+
+      &:hover {
+        color: white;
+      }
+
+      &.active {
+        color: white;
+        font-weight: 700;
+      }
+
+      &.active::after {
+        content: "";
+        position: absolute;
+        height: 3px;
+        border-radius: 3px 3px 0 0;
+        inset: auto 0 0;
+        background-color: var(--yellow-500);
+      }
+    }
+  }
+
+  > button {
+    margin-left: auto;
+  }
+}

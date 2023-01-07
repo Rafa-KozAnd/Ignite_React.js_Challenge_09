@@ -1,0 +1,42 @@
+{
+  "name": "ignews",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prismicio/client": "^4",
+    "@stripe/stripe-js": "^1.32.0",
+    "axios": "^0.27.2",
+    "faunadb": "^4.6.0",
+    "next": "12.1.6",
+    "next-auth": "^4.6.1",
+    "nextjs-progressbar": "^0.0.14",
+    "prismic-dom": "^2.2.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "sass": "^1.53.0",
+    "stripe": "^9.10.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.14.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/node": "18.0.0",
+    "@types/prismic-dom": "^2.1.1",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "babel-jest": "^28.1.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.2",
+    "jest-dom": "^4.0.0",
+    "jest-environment-jsdom": "^28.1.2",
+    "jest-mock": "^28.1.1",
+    "typescript": "4.7.4"
+  }
+}
